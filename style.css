@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eaf3e2;
+  color: #333;
+}
+
+header {
+  background: url('https://i.imgur.com/xhcmgI7.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+header h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #0b4a00;
+}
+
+.sobre p {
+  line-height: 1.6;
+}
+
+.sobre img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.galeria .imagens {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 32%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+.formulario {
+  background-color: #f6fff0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: #0b4a00;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #146c09;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0b4a00;
+  color: white;
+  margin-top: 40px;
+}
